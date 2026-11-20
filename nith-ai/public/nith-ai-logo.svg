@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Nith AI</title>
+  <description id="description">A modern geometric N mark for Nith AI</description>
+  <defs>
+    <linearGradient id="surface" x1="68" y1="44" x2="444" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20283B"/>
+      <stop offset="1" stop-color="#0B0E18"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="126" y1="90" x2="390" y2="422" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EA6FF"/>
+      <stop offset=".48" stop-color="#6578FF"/>
+      <stop offset="1" stop-color="#A58FFF"/>
+    </linearGradient>
+    <linearGradient id="n" x1="170" y1="160" x2="342" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDE3FF"/>
+    </linearGradient>
+    <filter id="shadow" x="70" y="56" width="372" height="400" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#05070D" flood-opacity=".38"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#surface)"/>
+  <path d="M256 66 420 160v192L256 446 92 352V160Z" fill="#FFFFFF" opacity=".035"/>
+
+  <g filter="url(#shadow)">
+    <path d="M256 82 394 162v188l-138 80-138-80V162Z" fill="url(#ring)"/>
+    <path d="M256 122 360 182v148l-104 60-104-60V182Z" fill="#111522"/>
+    <path d="M256 140 345 191v130l-89 51-89-51V191Z" fill="#171C2E" opacity=".68"/>
+
+    <path d="M179 333V179h43l68 94v-94h43v154h-43l-68-94v94Z" fill="url(#n)"/>
+  </g>
+
+  <circle cx="256" cy="82" r="6" fill="#FFFFFF" opacity=".78"/>
+  <circle cx="394" cy="350" r="5" fill="#BFC8FF" opacity=".72"/>
+  <circle cx="118" cy="350" r="5" fill="#BFC8FF" opacity=".72"/>
+</svg>
